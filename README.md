@@ -43,7 +43,8 @@ The function returns one of the following strings:
 
 ### Example Usage
 ```python
-print(sort(200, 200, 200, 30))  # Output: "REJECTED"
-print(sort(100, 100, 100, 10))  # Output: "STANDARD"
-print(sort(300, 100, 50, 15))   # Output: "SPECIAL"
-print(sort(100, 100, 100, 25))  # Output: "SPECIAL"
+print(sort(200, 200, 200, 30))  # Expected: REJECTED (bulky and heavy)
+print(sort(100, 100, 100, 10))  # Expected: SPECIAL (bulky but not heavy)
+print(sort(300, 100, 50, 15))   # Expected: SPECIAL (bulky but not heavy)
+print(sort(100, 100, 100, 25))  # Expected: REJECTED (bulky and heavy)
+print(sort(10, 100, 100, 2))    # Expected: STANDARD (neither bulky nor heavy)
