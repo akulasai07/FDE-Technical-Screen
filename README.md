@@ -3,8 +3,7 @@
 # Define the README file name
 README_FILE="README.md"
 
-# Write content to the README file
-cat <<EOL > $README_FILE
+
 # Robotic Package Sorter
 
 ## Objective
